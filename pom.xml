@@ -4,7 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-      <dependencies>
+    <groupId>com.burakkutbay</groupId>
+    <artifactId>com.burakkutbay</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <dependencies>
         <!--JSF Library-->
         <dependency>
             <groupId>javax</groupId>
@@ -28,6 +31,13 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
+
+        <dependency>
+            <groupId>javax.faces</groupId>
+            <artifactId>javax.faces-api</artifactId>
+            <version>2.1</version>
+        </dependency>
+
         <!--JSF Library-->
         <!--PrimeFaces Library-->
         <dependency>
@@ -41,6 +51,13 @@
             <version>6.0.0</version>
         </dependency>
         <!--PrimeFaces Library-->
+        <!-- Google GSON JSON Library-->
+        <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>2.8.0</version>
+        </dependency>
+        <!-- Google GSON JSON Library-->
     </dependencies>
 
 </project>
